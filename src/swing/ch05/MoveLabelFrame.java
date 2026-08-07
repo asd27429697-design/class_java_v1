@@ -39,7 +39,6 @@ public class MoveLabelFrame extends JFrame {
 
         this.addKeyListener(new KeyListener() {
 
-
             @Override
             public void keyTyped(KeyEvent e) {
             }
