@@ -24,7 +24,9 @@ public class CurrentlyTime {
         System.out.println("태어난지: "+ born + "일");
 
         // 4. 크리스마스까지 D-day
-
+        LocalDate christmas = LocalDate.of(2026,12,25);
+        long dDay = ChronoUnit.DAYS.between(today,christmas);
+        System.out.println("크리스마스까지: " + dDay + "일");
 
 
         // 5. 원하는 형식으로 출력
