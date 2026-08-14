@@ -12,17 +12,11 @@ public class ArrayExceptionHandling {
                 System.out.println("arr[" + i + "] = " + arr[i]);
             }
         } catch (Exception e) {
-            // System.out.println("catch 블록으로 넘어 왔음");
-            System.out.println(e.getMessage());
-            e.printStackTrace();
+            System.out.println("catch 블록으로 넘어 왔음");
         }
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println("arr[" + i + "] = " + arr[i]);
 
-//        }
-//
-//
-//        ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException;
+        System.out.println("프로그램이 비정상종료 되지 않았음");
 
     } // end of main
 } // end of class
+
